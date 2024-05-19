@@ -1,0 +1,64 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    background-color: #176196;
+    padding: 10px 20px;
+    color: rgb(250, 249, 249);
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    position: relative;
+}
+
+.logo {
+    background-color: aliceblue;
+    border-radius: 25px;
+    height: 45px;
+    width: 45px; /* Adjust the size of the logo to fit inside the circle */
+    margin-right: 20px;
+    z-index: 1; /* Ensure the logo is above the circle */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 30px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
+
+a {
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+}
+
+ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: white;
+}
+
+ul li:visited {
+    color: red;
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    padding-right: 25px;
+}

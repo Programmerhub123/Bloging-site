@@ -1,0 +1,53 @@
+.sidebar {
+    position: fixed;
+    top: 285px;
+    right: 10px; /* Added right margin */
+    bottom: 10px; /* Added bottom margin */
+    width: 250px;
+    background-color: #d5f2fd;
+    padding: 20px;
+    overflow-y: auto; /* Add vertical scrollbar if content overflows */
+    padding-right: 0;
+    scroll-behavior: smooth;
+}
+
+.about {
+    font-size: large;
+    font-weight: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img img {
+    width: 200px;
+    height: 175px;
+}
+
+.categories {
+    margin-top: 5px;
+    font-size: x-large;
+}
+
+.column {
+    width: 50%;
+    float: left;
+}
+
+.category {
+    margin-top: 10px;
+    padding: 7px;
+    border: 1px solid #fbad54;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-right: 5px;
+    font-size: medium;
+    border-radius: 5px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.text{
+    justify-content: center;
+    margin-top: 10px;
+}
+.lines{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
